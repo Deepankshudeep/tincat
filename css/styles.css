@@ -1,0 +1,184 @@
+.body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.65;
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Montserrat";
+  line-height: 3rem;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 16px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* navbar section css */
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: "ubunty";
+  color: white;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button {
+  margin: 3% 5% 0 0;
+}
+
+/* iphone image */
+.iphone-img {
+
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  height: 490px;
+  width: 380px;
+  border-radius: 100px 50px 30px 5px;
+  padding-left: 50px;
+}
+
+/* changing features section  */
+.font-icon {
+  color: red;
+}
+
+#features {
+  font-size: 1 rem;
+  text-align: center;
+  font-family: "kanit";
+  padding: 7% 20%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  color: red;
+}
+
+.features-para {
+  font-family: "kanit";
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+/* Testimonial wala section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+  line-height: 14rem;
+  padding-top: 5%;
+}
+
+.testimonial-img {
+  width: 113px;
+  height: 215px;
+  margin: 10px 10px 10px 0;
+  border-radius: 35%;
+  margin-top: 50px;
+}
+
+
+.logo-img{
+  background-color: #ef8172;
+
+  text-align: center;
+}
+.press-img{
+
+  padding-bottom: 50px;
+  border-top-width: 50px;
+  padding-top: 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+
+}
+
+
+}
+
+.carousel-item {
+  padding: 7% 5%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 5% 7%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3%;
+}
+
+/* call to action wala section ie end wala */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8% 15%;
+}
+
+.cta-heading {
+  color: white;
+  font-family: "Montserrat";
+  line-height: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+p {
+  font-family: "kanit";
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+#footer {
+  padding: 5% 7%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: 0 15px 15px 15px;
+}
+
+/* this is for making iphoneimage responsive using media query */
+@media(max-width: 1024px) {
+  .iphone-img {
+    position: static;
+    padding-left: 15%;
+    padding-top: 10%;
+    transform: rotate(0);
+  }
+}
